@@ -3,40 +3,176 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="GGS96 Blog - Personal blog and insights">
+    <title>GGS96 Blog - Home</title>
     <link rel="stylesheet" href="css/style.css">
-    <title>Home - Modern Blog</title>
 </head>
 <body>
-    <header>
-        <h1>Welcome to Our Blog</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <li><a href="blog.html">Blog</a></li>
-            </ul>
-        </nav>
+    <header class="site-header">
+        <div class="container">
+            <div class="header-content">
+                <h1 class="site-title"><a href="index.html">GGS96</a></h1>
+                <nav class="main-nav">
+                    <button class="nav-toggle" aria-label="Toggle navigation">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                    <ul class="nav-menu">
+                        <li><a href="index.html" class="active">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
     </header>
-    <main>
-        <section class="hero">
-            <h2>Your Daily Source of Inspiration</h2>
-        </section>
-        <section class="posts">
-            <article>
-                <h3>Post Title</h3>
-                <p>Post excerpt goes here...</p>
-                <a href="post.html">Read more</a>
-            </article>
-            <!-- More post articles -->
-        </section>
-        <aside>
-            <h4>Sidebar</h4>
-            <p>Additional information like categories or ads.</p>
-        </aside>
+
+    <main class="main-content">
+        <div class="container">
+            <section class="hero-section">
+                <h2>Welcome to GGS96 Blog</h2>
+                <p>Sharing insights, experiences, and thoughts on technology, life, and everything in between.</p>
+            </section>
+
+            <div class="content-wrapper">
+                <section class="posts-grid">
+                    <article class="post-card">
+                        <div class="post-image">
+                            <img src="https://via.placeholder.com/400x250/4a90e2/ffffff?text=Featured+Post" alt="Featured Post">
+                        </div>
+                        <div class="post-content">
+                            <div class="post-meta">
+                                <span class="post-date">November 7, 2025</span>
+                                <span class="post-category">Technology</span>
+                            </div>
+                            <h3><a href="post.html">The Future of Web Development</a></h3>
+                            <p>Exploring the latest trends and technologies shaping the future of web development...</p>
+                            <a href="post.html" class="read-more">Read More</a>
+                        </div>
+                    </article>
+
+                    <article class="post-card">
+                        <div class="post-image">
+                            <img src="https://via.placeholder.com/400x250/7ed321/ffffff?text=Tech+Tips" alt="Tech Tips">
+                        </div>
+                        <div class="post-content">
+                            <div class="post-meta">
+                                <span class="post-date">November 5, 2025</span>
+                                <span class="post-category">Tips</span>
+                            </div>
+                            <h3><a href="post.html">10 Essential Developer Tools</a></h3>
+                            <p>A curated list of must-have tools for modern web developers...</p>
+                            <a href="post.html" class="read-more">Read More</a>
+                        </div>
+                    </article>
+
+                    <article class="post-card">
+                        <div class="post-image">
+                            <img src="https://via.placeholder.com/400x250/f5a623/ffffff?text=Personal" alt="Personal Story">
+                        </div>
+                        <div class="post-content">
+                            <div class="post-meta">
+                                <span class="post-date">November 3, 2025</span>
+                                <span class="post-category">Personal</span>
+                            </div>
+                            <h3><a href="post.html">My Journey in Tech</a></h3>
+                            <p>Reflecting on my journey in the technology industry and lessons learned...</p>
+                            <a href="post.html" class="read-more">Read More</a>
+                        </div>
+                    </article>
+
+                    <article class="post-card">
+                        <div class="post-image">
+                            <img src="https://via.placeholder.com/400x250/9013fe/ffffff?text=Tutorial" alt="Tutorial">
+                        </div>
+                        <div class="post-content">
+                            <div class="post-meta">
+                                <span class="post-date">November 1, 2025</span>
+                                <span class="post-category">Tutorial</span>
+                            </div>
+                            <h3><a href="post.html">Building Responsive Layouts</a></h3>
+                            <p>Learn how to create beautiful, responsive layouts using CSS Grid and Flexbox...</p>
+                            <a href="post.html" class="read-more">Read More</a>
+                        </div>
+                    </article>
+                </section>
+
+                <aside class="sidebar">
+                    <div class="widget">
+                        <h3>About GGS96</h3>
+                        <p>Welcome to my personal blog where I share insights about technology, development, and life experiences.</p>
+                    </div>
+                    
+                    <div class="widget">
+                        <h3>Recent Posts</h3>
+                        <ul class="recent-posts">
+                            <li><a href="post.html">The Future of Web Development</a></li>
+                            <li><a href="post.html">10 Essential Developer Tools</a></li>
+                            <li><a href="post.html">My Journey in Tech</a></li>
+                            <li><a href="post.html">Building Responsive Layouts</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="widget">
+                        <h3>Categories</h3>
+                        <ul class="categories">
+                            <li><a href="blog.html">Technology (5)</a></li>
+                            <li><a href="blog.html">Tips (3)</a></li>
+                            <li><a href="blog.html">Personal (2)</a></li>
+                            <li><a href="blog.html">Tutorial (4)</a></li>
+                        </ul>
+                    </div>
+                </aside>
+            </div>
+        </div>
     </main>
-    <footer>
-        <p>&copy; 2023 Modern Blog. All rights reserved.</p>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>GGS96 Blog</h4>
+                    <p>Sharing knowledge and experiences in the world of technology and beyond.</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Categories</h4>
+                    <ul>
+                        <li><a href="blog.html">Technology</a></li>
+                        <li><a href="blog.html">Tips</a></li>
+                        <li><a href="blog.html">Personal</a></li>
+                        <li><a href="blog.html">Tutorial</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Connect</h4>
+                    <div class="social-links">
+                        <a href="#" aria-label="Twitter">Twitter</a>
+                        <a href="#" aria-label="LinkedIn">LinkedIn</a>
+                        <a href="#" aria-label="GitHub">GitHub</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 GGS96 Blog. All rights reserved.</p>
+            </div>
+        </div>
     </footer>
+
+    <script src="js/script.js"></script>
 </body>
 </html>
