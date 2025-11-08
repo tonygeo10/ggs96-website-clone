@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Browse all blog posts from GGS96 - Technology, tutorials, and insights">
+    <meta property="og:title" content="Blog - GGS96">
+    <meta property="og:description" content="Browse all blog posts - Technology, tutorials, and insights">
+    <meta property="og:type" content="website">
+    <title>Blog - GGS96</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+            <div class="header-content">
+                <h1 class="site-title"><a href="index.html">GGS96</a></h1>
+                <nav class="main-nav">
+                    <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                    <ul class="nav-menu">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="blog.html" class="active">Blog</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main class="main-content" id="main-content">
+        <div class="container">
+            <section class="hero-section">
+                <h2>Blog Posts</h2>
+                <p>Explore articles, tutorials, and insights on technology and development</p>
+            </section>
+
+            <div class="blog-header">
+                <div class="search-container">
+                    <span class="search-icon">🔍</span>
+                    <input type="text" class="search-input" placeholder="Search posts..." aria-label="Search blog posts">
+                </div>
+
+                <div class="blog-filters">
+                    <button class="filter-btn active" data-filter="all">All Posts</button>
+                    <button class="filter-btn" data-filter="technology">Technology</button>
+                    <button class="filter-btn" data-filter="tips">Tips</button>
+                    <button class="filter-btn" data-filter="personal">Personal</button>
+                    <button class="filter-btn" data-filter="tutorial">Tutorial</button>
+                </div>
+            </div>
+
+            <div class="content-wrapper">
+                <section class="posts-grid">
+                    <article class="post-card" data-category="technology">
+                        <div class="post-image">
+                            <img src="https://via.placeholder.com/400x250/4a90e2/ffffff?text=Featured+Post" alt="The Future of Web Development">
+                        </div>
+                        <div class="post-content">
+                            <div class="post-meta">
+                                <span class="post-date">November 7, 2025</span>
+                                <span class="post-category">Technology</span>
+                            </div>
+                            <h3><a href="post.html">The Future of Web Development</a></h3>
+                            <p>Exploring the latest trends and technologies shaping the future of web development. From AI integration to progressive web apps, discover what's next.</p>
+                            <a href="post.html" class="read-more">Read More</a>
+                        </div>
+                    </article>
+
+                    <article class="post-card" data-category="tips">
+                        <div class="post-image">
+                            <img src="https://via.placeholder.com/400x250/7ed321/ffffff?text=Tech+Tips" alt="10 Essential Developer Tools">
+                        </div>
+                        <div class="post-content">
+                            <div class="post-meta">
+                                <span class="post-date">November 5, 2025</span>
+                                <span class="post-category">Tips</span>
+                            </div>
+                            <h3><a href="post.html">10 Essential Developer Tools</a></h3>
+                            <p>A curated list of must-have tools for modern web developers. Boost your productivity and streamline your workflow with these essential utilities.</p>
+                            <a href="post.html" class="read-more">Read More</a>
+                        </div>
+                    </article>
+
+                    <article class="post-card" data-category="personal">
+                        <div class="post-image">
+                            <img src="https://via.placeholder.com/400x250/f5a623/ffffff?text=Personal" alt="My Journey in Tech">
+                        </div>
+                        <div class="post-content">
+                            <div class="post-meta">
+                                <span class="post-date">November 3, 2025</span>
+                                <span class="post-category">Personal</span>
+                            </div>
+                            <h3><a href="post.html">My Journey in Tech</a></h3>
+                            <p>Reflecting on my journey in the technology industry and lessons learned along the way. From beginner to professional developer.</p>
+                            <a href="post.html" class="read-more">Read More</a>
+                        </div>
+                    </article>
+
+                    <article class="post-card" data-category="tutorial">
+                        <div class="post-image">
+                            <img src="https://via.placeholder.com/400x250/9013fe/ffffff?text=Tutorial" alt="Building Responsive Layouts">
+                        </div>
+                        <div class="post-content">
+                            <div class="post-meta">
+                                <span class="post-date">November 1, 2025</span>
+                                <span class="post-category">Tutorial</span>
+                            </div>
+                            <h3><a href="post.html">Building Responsive Layouts</a></h3>
+                            <p>Learn how to create beautiful, responsive layouts using CSS Grid and Flexbox. Step-by-step tutorial with practical examples.</p>
+                            <a href="post.html" class="read-more">Read More</a>
+                        </div>
+                    </article>
+
+                    <article class="post-card" data-category="technology">
+                        <div class="post-image">
+                            <img src="https://via.placeholder.com/400x250/e74c3c/ffffff?text=AI+Tech" alt="AI in Web Development">
+                        </div>
+                        <div class="post-content">
+                            <div class="post-meta">
+                                <span class="post-date">October 30, 2025</span>
+                                <span class="post-category">Technology</span>
+                            </div>
+                            <h3><a href="post.html">AI in Web Development</a></h3>
+                            <p>How artificial intelligence is transforming the way we build websites and applications. Exploring AI-powered development tools.</p>
+                            <a href="post.html" class="read-more">Read More</a>
+                        </div>
+                    </article>
+
+                    <article class="post-card" data-category="tutorial">
+                        <div class="post-image">
+                            <img src="https://via.placeholder.com/400x250/3498db/ffffff?text=JavaScript" alt="JavaScript Best Practices">
+                        </div>
+                        <div class="post-content">
+                            <div class="post-meta">
+                                <span class="post-date">October 28, 2025</span>
+                                <span class="post-category">Tutorial</span>
+                            </div>
+                            <h3><a href="post.html">JavaScript Best Practices 2025</a></h3>
+                            <p>Modern JavaScript best practices every developer should know. Write cleaner, more maintainable code with these proven techniques.</p>
+                            <a href="post.html" class="read-more">Read More</a>
+                        </div>
+                    </article>
+
+                    <article class="post-card" data-category="tips">
+                        <div class="post-image">
+                            <img src="https://via.placeholder.com/400x250/1abc9c/ffffff?text=Productivity" alt="Productivity Tips">
+                        </div>
+                        <div class="post-content">
+                            <div class="post-meta">
+                                <span class="post-date">October 26, 2025</span>
+                                <span class="post-category">Tips</span>
+                            </div>
+                            <h3><a href="post.html">Developer Productivity Tips</a></h3>
+                            <p>Boost your productivity as a developer with these practical tips and techniques. Work smarter, not harder.</p>
+                            <a href="post.html" class="read-more">Read More</a>
+                        </div>
+                    </article>
+
+                    <article class="post-card" data-category="technology">
+                        <div class="post-image">
+                            <img src="https://via.placeholder.com/400x250/9b59b6/ffffff?text=Cloud" alt="Cloud Computing">
+                        </div>
+                        <div class="post-content">
+                            <div class="post-meta">
+                                <span class="post-date">October 24, 2025</span>
+                                <span class="post-category">Technology</span>
+                            </div>
+                            <h3><a href="post.html">Introduction to Cloud Computing</a></h3>
+                            <p>Understanding cloud computing basics and how to leverage cloud services for your projects. AWS, Azure, and GCP compared.</p>
+                            <a href="post.html" class="read-more">Read More</a>
+                        </div>
+                    </article>
+
+                    <article class="post-card" data-category="personal">
+                        <div class="post-image">
+                            <img src="https://via.placeholder.com/400x250/f39c12/ffffff?text=Career" alt="Career Growth">
+                        </div>
+                        <div class="post-content">
+                            <div class="post-meta">
+                                <span class="post-date">October 22, 2025</span>
+                                <span class="post-category">Personal</span>
+                            </div>
+                            <h3><a href="post.html">Growing Your Developer Career</a></h3>
+                            <p>Strategies for advancing your career as a developer. From junior to senior and beyond - lessons from my own experience.</p>
+                            <a href="post.html" class="read-more">Read More</a>
+                        </div>
+                    </article>
+                </section>
+
+                <aside class="sidebar">
+                    <div class="widget">
+                        <h3>About GGS96</h3>
+                        <p>Welcome to my personal blog where I share insights about technology, development, and life experiences.</p>
+                        <a href="about.html" class="btn">Learn More</a>
+                    </div>
+                    
+                    <div class="widget">
+                        <h3>Categories</h3>
+                        <ul class="categories">
+                            <li><a href="#" data-filter="technology">Technology (5)</a></li>
+                            <li><a href="#" data-filter="tips">Tips (3)</a></li>
+                            <li><a href="#" data-filter="personal">Personal (2)</a></li>
+                            <li><a href="#" data-filter="tutorial">Tutorial (4)</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="widget">
+                        <h3>Popular Posts</h3>
+                        <ul class="recent-posts">
+                            <li><a href="post.html">The Future of Web Development</a></li>
+                            <li><a href="post.html">10 Essential Developer Tools</a></li>
+                            <li><a href="post.html">JavaScript Best Practices 2025</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="widget">
+                        <h3>Tags</h3>
+                        <div class="tags">
+                            <a href="#" class="tag">JavaScript</a>
+                            <a href="#" class="tag">React</a>
+                            <a href="#" class="tag">CSS</a>
+                            <a href="#" class="tag">Node.js</a>
+                            <a href="#" class="tag">Python</a>
+                            <a href="#" class="tag">DevOps</a>
+                        </div>
+                    </div>
+                </aside>
+            </div>
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>GGS96 Blog</h4>
+                    <p>Sharing knowledge and experiences in the world of technology and beyond.</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Categories</h4>
+                    <ul>
+                        <li><a href="blog.html">Technology</a></li>
+                        <li><a href="blog.html">Tips</a></li>
+                        <li><a href="blog.html">Personal</a></li>
+                        <li><a href="blog.html">Tutorial</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Newsletter</h4>
+                    <p>Subscribe to get the latest updates!</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Your email" required aria-label="Email for newsletter">
+                        <button type="submit">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 GGS96 Blog. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js" defer></script>
+</body>
+</html>

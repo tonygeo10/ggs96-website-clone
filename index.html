@@ -3,17 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="GGS96 Blog - Personal blog and insights">
+    <meta name="description" content="GGS96 Blog - Personal blog and insights on technology, development, and life experiences">
+    <meta property="og:title" content="GGS96 Blog - Home">
+    <meta property="og:description" content="Sharing insights, experiences, and thoughts on technology, life, and everything in between">
+    <meta property="og:type" content="website">
     <title>GGS96 Blog - Home</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
 </head>
 <body>
     <header class="site-header">
         <div class="container">
             <div class="header-content">
-                <h1 class="site-title"><a href="index.html">GGS96</a></h1>
+                <h1 class="site-title"><a href="index.html">GANGSTER AND GROOVE SOCIETY</a></h1>
                 <nav class="main-nav">
-                    <button class="nav-toggle" aria-label="Toggle navigation">
+                    <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
                         <span></span>
                         <span></span>
                         <span></span>
@@ -22,6 +26,28 @@
                         <li><a href="index.html" class="active">Home</a></li>
                         <li><a href="about.html">About</a></li>
                         <li><a href="blog.html">Blog</a></li>
+                        <li class="dropdown">
+                            <a href="music.html">Music</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="music-album-reviews.html">Album Reviews</a></li>
+                                <li><a href="music-news.html">Music News</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="cinema.html">Cinema</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="cinema-movies.html">Movies</a></li>
+                                <li><a href="cinema-series.html">Series</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="games.html">Games</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="games-news.html">Games News</a></li>
+                                <li><a href="games-reviews.html">Game Reviews</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="culture.html">Culture</a></li>
                         <li><a href="contact.html">Contact</a></li>
                     </ul>
                 </nav>
@@ -29,11 +55,28 @@
         </div>
     </header>
 
-    <main class="main-content">
+    <main class="main-content" id="main-content">
         <div class="container">
             <section class="hero-section">
                 <h2>Welcome to GGS96 Blog</h2>
                 <p>Sharing insights, experiences, and thoughts on technology, life, and everything in between.</p>
+            </section>
+
+            <section class="split-banner">
+                <div class="banner-image-left">
+                    <img src="https://via.placeholder.com/600x400/667eea/ffffff?text=Code+%26+Create" alt="Coding and Development">
+                    <div class="banner-overlay">
+                        <h3>Build Amazing Things</h3>
+                        <p>Explore tutorials and guides</p>
+                    </div>
+                </div>
+                <div class="banner-image-right">
+                    <img src="https://via.placeholder.com/600x400/764ba2/ffffff?text=Learn+%26+Grow" alt="Learning and Growth">
+                    <div class="banner-overlay">
+                        <h3>Never Stop Learning</h3>
+                        <p>Discover insights and best practices</p>
+                    </div>
+                </div>
             </section>
 
             <div class="content-wrapper">
@@ -165,6 +208,15 @@
                         <a href="#" aria-label="GitHub">GitHub</a>
                     </div>
                 </div>
+
+                <div class="footer-section">
+                    <h4>Newsletter</h4>
+                    <p>Subscribe to get the latest updates!</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Your email" required aria-label="Email for newsletter">
+                        <button type="submit">Subscribe</button>
+                    </form>
+                </div>
             </div>
             
             <div class="footer-bottom">
@@ -173,6 +225,6 @@
         </div>
     </footer>
 
-    <script src="js/script.js"></script>
+    <script src="js/script.js" defer></script>
 </body>
 </html>
